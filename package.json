@@ -17,8 +17,10 @@
     "url": "https://github.com/zhumabek/final-css-project/issues"
   },
   "homepage": "https://github.com/zhumabek/final-css-project#readme",
-
   "devDependencies": {
     "node-sass": "^4.13.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0"
   }
 }
