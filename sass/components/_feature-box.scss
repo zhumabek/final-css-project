@@ -6,11 +6,19 @@
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
     width: 21.6rem;
+    transition: all 0.3s;
 
     &__icon {
-        display: inline-block;
+        display: block;
         font-size: 6rem;
         margin-bottom: 0.5rem;
-        
+    
+        background-image: linear-gradient(to bottom right, rgba($color-primary-light, 0.8),  rgba($color-primary-dark, 0.8));
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    &:hover {
+        transform: translateY(-1.4rem) scale(1.08);
     }
 }
