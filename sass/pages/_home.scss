@@ -97,6 +97,13 @@
 
         &__item {
             width: 30.5rem;
+            margin-bottom: 2rem;
         }
     }
+}
+
+.section-stories {
+   position: relative;
+   padding: 15rem 0;
+   background-color: $color-grey-light-1;
 }
